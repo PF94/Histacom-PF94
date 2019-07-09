@@ -1,0 +1,2014 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A9E99EDA-35D4-4BB0-80E9-A0CCFE0D76FA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Histacom.My.MyApplication</StartupObject>
+    <RootNamespace>Histacom</RootNamespace>
+    <AssemblyName>Histacom</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>039280DABA6C684923B7B0FD5B097E046E3DCC23</ManifestCertificateThumbprint>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>C:\Users\Philip Adams\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.8.5.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Histacom.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Histacom.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>histacom icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>true</DelaySign>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="2002 virus labels.Designer.vb">
+      <DependentUpon>2002 virus labels.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2002 virus labels.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Address Book.Designer.vb">
+      <DependentUpon>Address Book.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Address Book.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Command prompt.Designer.vb">
+      <DependentUpon>Command prompt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Command prompt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="commandprompt2000.Designer.vb">
+      <DependentUpon>commandprompt2000.vb</DependentUpon>
+    </Compile>
+    <Compile Include="commandprompt2000.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="commandpromptxp.Designer.vb">
+      <DependentUpon>commandpromptxp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="commandpromptxp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="downloader2000.Designer.vb">
+      <DependentUpon>downloader2000.vb</DependentUpon>
+    </Compile>
+    <Compile Include="downloader2000.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="downloader95.Designer.vb">
+      <DependentUpon>downloader95.vb</DependentUpon>
+    </Compile>
+    <Compile Include="downloader95.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="errorblaster2000.Designer.vb">
+      <DependentUpon>errorblaster2000.vb</DependentUpon>
+    </Compile>
+    <Compile Include="errorblaster2000.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="errorblaster98.Designer.vb">
+      <DependentUpon>errorblaster98.vb</DependentUpon>
+    </Compile>
+    <Compile Include="errorblaster98.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guess The Number 98.Designer.vb">
+      <DependentUpon>Guess The Number 98.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Guess The Number 98.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guessthenumber2win2000.Designer.vb">
+      <DependentUpon>guessthenumber2win2000.vb</DependentUpon>
+    </Compile>
+    <Compile Include="guessthenumber2win2000.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hiden contect varable.vb" />
+    <Compile Include="Downloader98.Designer.vb">
+      <DependentUpon>Downloader98.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Downloader98.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="errorblaster95.Designer.vb">
+      <DependentUpon>errorblaster95.vb</DependentUpon>
+    </Compile>
+    <Compile Include="errorblaster95.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formcalculator.Designer.vb">
+      <DependentUpon>formcalculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formcalculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formDisplayproperties.Designer.vb">
+      <DependentUpon>formDisplayproperties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formDisplayproperties.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formwindowshelp.Designer.vb">
+      <DependentUpon>formwindowshelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formwindowshelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guess The Number app.Designer.vb">
+      <DependentUpon>Guess The Number app.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Guess The Number app.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hwcv.Designer.vb">
+      <DependentUpon>hwcv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hwcv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hwcv2001.exe.Designer.vb">
+      <DependentUpon>hwcv2001.exe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hwcv2001.exe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="installer2000.Designer.vb">
+      <DependentUpon>installer2000.vb</DependentUpon>
+    </Compile>
+    <Compile Include="installer2000.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Installer95.Designer.vb">
+      <DependentUpon>Installer95.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Installer95.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Installer98.Designer.vb">
+      <DependentUpon>Installer98.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Installer98.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="installerxp.Designer.vb">
+      <DependentUpon>installerxp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="installerxp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="internet explorer 4.Designer.vb">
+      <DependentUpon>internet explorer 4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="internet explorer 4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="internet explorer 51999.Designer.vb">
+      <DependentUpon>internet explorer 51999.vb</DependentUpon>
+    </Compile>
+    <Compile Include="internet explorer 51999.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Internet Explorer 52000.Designer.vb">
+      <DependentUpon>Internet Explorer 52000.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Internet Explorer 52000.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="internet explorer 52001.Designer.vb">
+      <DependentUpon>internet explorer 52001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="internet explorer 52001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Internetexplorer62002damaged.Designer.vb">
+      <DependentUpon>Internetexplorer62002damaged.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Internetexplorer62002damaged.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loadsettings.Designer.vb">
+      <DependentUpon>loadsettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="loadsettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="notepad.Designer.vb">
+      <DependentUpon>notepad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="notepad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="notepad2000.Designer.vb">
+      <DependentUpon>notepad2000.vb</DependentUpon>
+    </Compile>
+    <Compile Include="notepad2000.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="notepadxp.Designer.vb">
+      <DependentUpon>notepadxp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="notepadxp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paint.Designer.vb">
+      <DependentUpon>paint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="paint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="phone dialer.Designer.vb">
+      <DependentUpon>phone dialer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="phone dialer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rougescanner2000.Designer.vb">
+      <DependentUpon>rougescanner2000.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rougescanner2000.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="run.Designer.vb">
+      <DependentUpon>run.vb</DependentUpon>
+    </Compile>
+    <Compile Include="run.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Skindows 95.Designer.vb">
+      <DependentUpon>Skindows 95.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Skindows 95.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start Runner95.Designer.vb">
+      <DependentUpon>Start Runner95.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Start Runner95.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="startrunner2000.Designer.vb">
+      <DependentUpon>startrunner2000.vb</DependentUpon>
+    </Compile>
+    <Compile Include="startrunner2000.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartRunner98.Designer.vb">
+      <DependentUpon>StartRunner98.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StartRunner98.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Survive The Day.Designer.vb">
+      <DependentUpon>Survive The Day.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Survive The Day.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="template2000.Designer.vb">
+      <DependentUpon>template2000.vb</DependentUpon>
+    </Compile>
+    <Compile Include="template2000.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="templatexp.Designer.vb">
+      <DependentUpon>templatexp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="templatexp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="templete.Designer.vb">
+      <DependentUpon>templete95and98.vb</DependentUpon>
+    </Compile>
+    <Compile Include="templete95and98.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="templetevista.Designer.vb">
+      <DependentUpon>templetevista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="templetevista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="time distorter 0.2.Designer.vb">
+      <DependentUpon>time distorter 0.2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="time distorter 0.2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="time distorter.Designer.vb">
+      <DependentUpon>time distorter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="time distorter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="time travel year display.Designer.vb">
+      <DependentUpon>time travel year display.vb</DependentUpon>
+    </Compile>
+    <Compile Include="time travel year display.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="timedistorter0.32000.Designer.vb">
+      <DependentUpon>timedistorter0.32000.vb</DependentUpon>
+    </Compile>
+    <Compile Include="timedistorter0.32000.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="timedistorter032002xp.Designer.vb">
+      <DependentUpon>timedistorter032002xp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="timedistorter032002xp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="timedistorter2001.Designer.vb">
+      <DependentUpon>timedistorter2001.vb</DependentUpon>
+    </Compile>
+    <Compile Include="timedistorter2001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Title Screen.Designer.vb">
+      <DependentUpon>Title Screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Title Screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="volume control.Designer.vb">
+      <DependentUpon>volume control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="volume control.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebChat 1999.Designer.vb">
+      <DependentUpon>WebChat 1999.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WebChat 1999.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="webchat 2000.Designer.vb">
+      <DependentUpon>webchat 2000.vb</DependentUpon>
+    </Compile>
+    <Compile Include="webchat 2000.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Webchat.Designer.vb">
+      <DependentUpon>Webchat1998.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Webchat1998.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windows explorer.Designer.vb">
+      <DependentUpon>windows explorer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="windows explorer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windows me.Designer.vb">
+      <DependentUpon>windows me.vb</DependentUpon>
+    </Compile>
+    <Compile Include="windows me.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows Xp messagebox.Designer.vb">
+      <DependentUpon>Windows Xp messagebox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Windows Xp messagebox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows2000.Designer.vb">
+      <DependentUpon>Windows2000.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Windows2000.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windows2000messagebox.Designer.vb">
+      <DependentUpon>windows2000messagebox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="windows2000messagebox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windows95 1997.Designer.vb">
+      <DependentUpon>windows95 1997.vb</DependentUpon>
+    </Compile>
+    <Compile Include="windows95 1997.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows95.Designer.vb">
+      <DependentUpon>Windows95.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Windows95.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windows95messagebox.Designer.vb">
+      <DependentUpon>windows95messagebox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="windows95messagebox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows98.Designer.vb">
+      <DependentUpon>Windows98.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Windows98.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windows98messagebox.Designer.vb">
+      <DependentUpon>windows98messagebox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="windows98messagebox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windowsmesudoku.Designer.vb">
+      <DependentUpon>windowsmesudoku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="windowsmesudoku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windowsvista.Designer.vb">
+      <DependentUpon>windowsvista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="windowsvista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="windowsme2001 do not make the virus.Designer.vb">
+      <DependentUpon>windowsme2001 do not make the virus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="windowsme2001 do not make the virus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windowsxp2002damaged.Designer.vb">
+      <DependentUpon>Windowsxp2002damaged.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Windowsxp2002damaged.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="2002 virus labels.resx">
+      <DependentUpon>2002 virus labels.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Address Book.resx">
+      <DependentUpon>Address Book.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Command prompt.resx">
+      <DependentUpon>Command prompt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="commandprompt2000.resx">
+      <DependentUpon>commandprompt2000.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="commandpromptxp.resx">
+      <DependentUpon>commandpromptxp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="downloader2000.resx">
+      <DependentUpon>downloader2000.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="downloader95.resx">
+      <DependentUpon>downloader95.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Downloader98.resx">
+      <DependentUpon>Downloader98.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="errorblaster2000.resx">
+      <DependentUpon>errorblaster2000.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="errorblaster95.resx">
+      <DependentUpon>errorblaster95.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="errorblaster98.resx">
+      <DependentUpon>errorblaster98.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formcalculator.resx">
+      <DependentUpon>formcalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formDisplayproperties.resx">
+      <DependentUpon>formDisplayproperties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formwindowshelp.resx">
+      <DependentUpon>formwindowshelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guess The Number 98.resx">
+      <DependentUpon>Guess The Number 98.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guess The Number app.resx">
+      <DependentUpon>Guess The Number app.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guessthenumber2win2000.resx">
+      <DependentUpon>guessthenumber2win2000.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hwcv.resx">
+      <DependentUpon>hwcv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hwcv2001.exe.resx">
+      <DependentUpon>hwcv2001.exe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="installer2000.resx">
+      <DependentUpon>installer2000.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Installer95.resx">
+      <DependentUpon>Installer95.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Installer98.resx">
+      <DependentUpon>Installer98.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="installerxp.resx">
+      <DependentUpon>installerxp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="internet explorer 4.resx">
+      <DependentUpon>internet explorer 4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="internet explorer 51999.resx">
+      <DependentUpon>internet explorer 51999.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Internet Explorer 52000.resx">
+      <DependentUpon>Internet Explorer 52000.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="internet explorer 52001.resx">
+      <DependentUpon>internet explorer 52001.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Internetexplorer62002damaged.resx">
+      <DependentUpon>Internetexplorer62002damaged.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loadsettings.resx">
+      <DependentUpon>loadsettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="notepad.resx">
+      <DependentUpon>notepad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="notepad2000.resx">
+      <DependentUpon>notepad2000.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="notepadxp.resx">
+      <DependentUpon>notepadxp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paint.resx">
+      <DependentUpon>paint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="phone dialer.resx">
+      <DependentUpon>phone dialer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rougescanner2000.resx">
+      <DependentUpon>rougescanner2000.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="run.resx">
+      <DependentUpon>run.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Skindows 95.resx">
+      <DependentUpon>Skindows 95.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start Runner95.resx">
+      <DependentUpon>Start Runner95.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="startrunner2000.resx">
+      <DependentUpon>startrunner2000.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartRunner98.resx">
+      <DependentUpon>StartRunner98.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Survive The Day.resx">
+      <DependentUpon>Survive The Day.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="template2000.resx">
+      <DependentUpon>template2000.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="templatexp.resx">
+      <DependentUpon>templatexp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="templete95and98.resx">
+      <DependentUpon>templete95and98.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="templetevista.resx">
+      <DependentUpon>templetevista.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="time distorter 0.2.resx">
+      <DependentUpon>time distorter 0.2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="time distorter.resx">
+      <DependentUpon>time distorter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="time travel year display.resx">
+      <DependentUpon>time travel year display.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="timedistorter0.32000.resx">
+      <DependentUpon>timedistorter0.32000.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="timedistorter032002xp.resx">
+      <DependentUpon>timedistorter032002xp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="timedistorter2001.resx">
+      <DependentUpon>timedistorter2001.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Title Screen.resx">
+      <DependentUpon>Title Screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="volume control.resx">
+      <DependentUpon>volume control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebChat 1999.resx">
+      <DependentUpon>WebChat 1999.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="webchat 2000.resx">
+      <DependentUpon>webchat 2000.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Webchat1998.resx">
+      <DependentUpon>Webchat1998.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="windows explorer.resx">
+      <DependentUpon>windows explorer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="windows me.resx">
+      <DependentUpon>windows me.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows Xp messagebox.resx">
+      <DependentUpon>Windows Xp messagebox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows2000.resx">
+      <DependentUpon>Windows2000.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="windows2000messagebox.resx">
+      <DependentUpon>windows2000messagebox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="windows95 1997.resx">
+      <DependentUpon>windows95 1997.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows95.resx">
+      <DependentUpon>Windows95.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="windows95messagebox.resx">
+      <DependentUpon>windows95messagebox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows98.resx">
+      <DependentUpon>Windows98.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="windows98messagebox.resx">
+      <DependentUpon>windows98messagebox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="windowsmesudoku.resx">
+      <DependentUpon>windowsmesudoku.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="windowsvista.resx">
+      <DependentUpon>windowsvista.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="windowsme2001 do not make the virus.resx">
+      <DependentUpon>windowsme2001 do not make the virus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windowsxp2002damaged.resx">
+      <DependentUpon>Windowsxp2002damaged.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.9.2">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2005 Express Edition SP2 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VisualBasic.PowerPacks.10.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Basic PowerPacks 10.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\programs icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows 95 sidemenustart.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\documents pic start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find pic start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help pic start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\programs icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Run pic start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings pic start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suspend pic start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suspend pic start1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown pic start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start button windows 95.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows 95 settings computer example.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\energysave windows 95.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\256 color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\high color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\true color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mini applications window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95adressbookstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95calcualatorstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95dosstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95hyperterminalstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95imagingstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95internetexplorerstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95notepadstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95onlineregistrationstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95outlookexpressstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95phonedialerstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95windowsexplorerstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95wordpadstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95aolandinternetfreetrial!startmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95atandtworldsignupstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95cdplayerstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95controlpanelstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95diskdefragmentorstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95findcomputerstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95findfilesorcomputersstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95findontherinternetstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95findpeoplestartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95internetconnectionwizardstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95mediaplayerstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95netmeetingstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95printersstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95scandiskstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95setupcomuservicestartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95setupwowstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95soundrecorderstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95taskbarstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95volumecontrolstartmenuicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95addressbookactionblackandwhiteicon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95addressbookdeleteblackandwhiteicon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95addressbookfindpeopleblackandwhiteicon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95addressbooknewblackandwhiteicon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95addressbookprintblackandwhiteicon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95addressbookpropertiesblackandwhiteicon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95speakerleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95speakerright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95runicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95painbrush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95painoval.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintcolorpick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintcurvyline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95painteracer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintfill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintfreeselectoricon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintpencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintpolygon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintrectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintrectangleselector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintroundedcircle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95painttext.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95spraycan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95zoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintfillpress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintfreeselectpush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintrectangleselectpress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintrubberpress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintbrushpress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintcolorselectpress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintcurvylinepress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintlinepress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintmagnifypress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintovelpress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintpencilpress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintpolygonepress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95paintspraycanpress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95painttextpress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95rectanglepress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95roundedrectanglepress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Microsoft Sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95internetexplorerback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95internetexplorerfavorites.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95internetexplorerforward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95internetexplorerhistory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95internetexplorerhome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95internetexplorerrefresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95internetexplorerstop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95internetexplorergobutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95internetexplorertoplogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\googleprotoype.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\googlebetalogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guess the number Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start run %2832x32%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\startrunnerinstallimage.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start run %28install%29 %28white with programname%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotmail logo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotmail slogan.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotmailcirclearrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotmail signup button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotmailwhysignup button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guess the number number 1 %2832x32%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows 95 background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1994-mclaren-f1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guess the Number %28install%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error blast %28big%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ErrorBlast %28One%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skindowsskybar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skindowsskybar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skindowsskybar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skindowsfirebar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skindowsgrassbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skindowslightingbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skindowswaterbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skindowsconcrete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skindowsfirebar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skindowsfirebar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skindowsbinary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skindowdirt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat %2832x32%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat %28big%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\install icon %2832x32%29 basic %28liquify%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skindows 95 %28install%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skindows 95 picture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotmailside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotmailtop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotmail2ndfromtopbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Time Distorter icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98startmenusidelogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98logoffscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98startmenufavorites.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98startmenuupdate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98startmenudialupnetworking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98startmenusampler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98startmenupersonwebserver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98startmendisccleanup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98startmenudriveconvert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98startmenumaintanecewizard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98startmenusampler1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98startmenuscedualed tasks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98startmenusysteminformation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98startmenuwelcometowindows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98startmenuamericaonline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98startmenucompuserve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98startmenuprodigyinternet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows98bootsound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\internet explorer 4 channels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\internet explorer 4 fullscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\internet explorer 4 logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\internet explorer 4 mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\internet explorer 4 print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1999hotmailpassport.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1999hotmaillogo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHORD.WAV" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Time Distortion Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time distorter %28install Black%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hwcv %28with label name%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hwcv %28with label name%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hwcvicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows1.0.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows2.0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows3.11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\winxpstartbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windowsxpbackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenubottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenutop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenutopsideright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenutopleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartbuttonpressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuuserimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenutopleft1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenurightside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuturnoffcomputerbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\winxpstartbutton1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenulogoffbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuturnoffcomputerbutton1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpclosebutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpmaximizebutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpminimizebutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxptopbarmiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpleftside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxprightside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpbottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpbottomcorner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95topleftcorner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95bottomleftcorner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95leftside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95bottomrightcorner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95toprightcorner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95rightside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unmaximizebutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95 and 98 taskbar item.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows95 and 98 taskbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows XP Startup.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xpstartmenutopbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xpbottomstartmenubar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xpbottomstartmenubar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenusplitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuinternetexplorermain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuoutlookexpressmain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenumediaplayermain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuwordpadmain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenutourwindowsxpmain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenufilesandtrasnferwizardmain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenupaintmain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenusoliairmain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuwindowsmoviemakermain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuallprogramsmain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuleftsplitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenumydocumentsmain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenumypicturesmain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenumymusicmain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenumycomputermain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenucontrolpanelmain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenusetprogramaccessanddefaultsmain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuhelpandsupportmain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenusearchmain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenurunmain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxprightsplitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuprogramfolder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenusidebackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenusidebackground1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenusetprogramaccessanddefults.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuwindowscatalog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuwindowsupdate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuinternetexplorer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuremote assistance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenumsn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuoutlookexpress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuwindowsmediaplayer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuwindowsmessenger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuwindowsmoviemaker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuaddressbook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenucalculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenucommandprompt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenunotepad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenupaint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenucompatibilitywizard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenusychronise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenutourwindowsxp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuwindowsexplorer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuwordpad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuaccessibilitywizard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenumagnifier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenunarrator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuonscreenkeyboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuunitillitymangaer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuhyperterminal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenunetworkconnections.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenunewconnectionwizard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenunewconnectionwizard1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenunetworkwizard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuremotedesktopconnection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpremotewirlesswizard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenusoundrecorder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenusoundcontrol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenumediaplayer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenucharatormap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenudisccleanup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenudiscdefragmentor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenufilesandsettingstransferwizard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuschedualedtasks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenusecuritycentre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenusysteminformation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenusystemrestore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenufreecell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuhearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenupinball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenusolitare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuspidersoliare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenumindsweeper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuinternetspades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuinternetreversi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuinternethearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuinternetcheckers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpstartmenuinternetbackgammon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxptaskbarright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxptoprightcorner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxptopleftcorner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxpbottomleftcorner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxptopleftcorner1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxptoprightcorner1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowsxprestorebutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="AxInterop.WMPLib">
+      <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Histacom.pdb">
+      <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Histacom.xml">
+      <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Interop.WMPLib">
+      <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualBasic.PowerPacks.Vs.xml">
+      <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="windows 95.pdb">
+      <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="windows 95.xml">
+      <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="histacom icon.ico" />
+    <None Include="Resources\01 Prisoner of Love.wav" />
+    <None Include="Resources\01 Prisoner of Love1.m4a" />
+    <None Include="Resources\01 Prisoner of Love.m4a" />
+    <None Include="Resources\welcome to soduku.png" />
+    <None Include="Resources\2001gamesandsoftware.png" />
+    <None Include="Resources\rouge scanner install banner.png" />
+    <None Include="Resources\spysheifficon.png" />
+    <None Include="Resources\vistatop.png" />
+    <None Include="Resources\windowsvistaorb.png" />
+    <None Include="Resources\vistataskbar.png" />
+    <None Include="Resources\Vista Wallpaper.jpg" />
+    <None Include="Resources\webchat 2000 title.png" />
+    <None Include="Resources\windowsmestartmenusystemrestore.png" />
+    <None Include="Resources\windowsmestartmenusystemmonitor.png" />
+    <None Include="Resources\windowsmestartmenuscandisk.png" />
+    <None Include="Resources\windowsmestartmenuresourcemonitor.png" />
+    <None Include="Resources\windowsmestartmenunetwatcher.png" />
+    <None Include="Resources\windowsmestartmenumaintanencewizard.png" />
+    <None Include="Resources\windowsmestartmenudrivespace.png" />
+    <None Include="Resources\windowsmestartmenuclipboardviewer.png" />
+    <None Include="Resources\windowsmestartmenuprogidyinternet.png" />
+    <None Include="Resources\windowsmestartmenuearthlink.png" />
+    <None Include="Resources\windowsmestartmenua&amp;tservice.png" />
+    <None Include="Resources\windowsmestartmenuamericaonline.png" />
+    <None Include="Resources\windowsmestartmenuspidersolitare.png" />
+    <None Include="Resources\windowsmestartmenuinternetspades1.png" />
+    <None Include="Resources\windowsmestartmenuminesweeper.png" />
+    <None Include="Resources\windowsmestartmenuinternetspades.png" />
+    <None Include="Resources\windowsmestartmenuinternetreversi.png" />
+    <None Include="Resources\windowsmestartmenuinternethearts.png" />
+    <None Include="Resources\windowsmestartmenuinternetcheckers.png" />
+    <None Include="Resources\windowsmestartmenuinternetbackhammon.png" />
+    <None Include="Resources\windowsmestartmenuclassichearts.png" />
+    <None Include="Resources\windowsmestartmenumilleniumeditionpreveiw.png" />
+    <None Include="Resources\windowsmestartmenuwebtv.png" />
+    <None Include="Resources\windowsmemsnstartmenuicon.png" />
+    <None Include="Resources\windowsmestartmenuisdnwizard.png" />
+    <None Include="Resources\windowsmestartmenuhomenetworkingwizard.png" />
+    <None Include="Resources\windowsmestartmenudialupconnectionwizard.png" />
+    <None Include="Resources\windowsmestartmenudialupnetworking.png" />
+    <None Include="Resources\windowsmestartmenuiconwindowsmediaplayer.png" />
+    <None Include="Resources\windowsmeonscreenkeyboard.png" />
+    <None Include="Resources\windowsmestartmenuside.png" />
+    <None Include="Resources\windows me background color.png" />
+    <None Include="Resources\windows me background.png" />
+    <None Include="Resources\windows 2000 history image.gif" />
+    <None Include="Resources\google 2000-2009 logo.gif" />
+    <None Include="Resources\Histacom 1.8 Background.png" />
+    <None Include="Resources\survive the day choice mouseover.png" />
+    <None Include="Resources\Ps2_wallpaper.jpg" />
+    <None Include="Resources\sydney new years.jpg" />
+    <None Include="Resources\Year2000bikebackground.jpg" />
+    <None Include="Resources\survive the day icon.png" />
+    <None Include="Resources\survive the day install banner.png" />
+    <None Include="Resources\survive the day text background.png" />
+    <None Include="Resources\survive the day option.png" />
+    <None Include="Resources\survive the day option holder.png" />
+    <None Include="Resources\survivethedaytop.png" />
+    <None Include="Resources\windowsxperrorsound.wav" />
+    <None Include="Resources\windows2000messageboxerror.png" />
+    <None Include="Resources\windows2000error.png" />
+    <None Include="Resources\12padams2000logo.png" />
+    <None Include="Resources\windows2000systeminformationstartmenuicon.png" />
+    <None Include="Resources\windows2000schedualedtasksstartmenuicon.png" />
+    <None Include="Resources\windows2000gettingstartedstartmenuicon.png" />
+    <None Include="Resources\windows2000discdefragmenterstartmenuicon.png" />
+    <None Include="Resources\windows2000disccleanupstartmenuicon.png" />
+    <None Include="Resources\windows2000charactormapstartmenu.png" />
+    <None Include="Resources\windows2000backupstartmenuicon.png" />
+    <None Include="Resources\windows2000solitairestartmenuicon.png" />
+    <None Include="Resources\windows2000pinballstartmenuicon.png" />
+    <None Include="Resources\windows2000mindsweeperstartmenuicon.png" />
+    <None Include="Resources\windows2000freecellstartmenuicon.png" />
+    <None Include="Resources\windows2000windowsmediaplayerstartmenuicon.png" />
+    <None Include="Resources\windows2000cdplayerstartmenuicon.png" />
+    <None Include="Resources\windows2000phonedialerstartmenuicon.png" />
+    <None Include="Resources\windows2000networkanddialupconnectionstartmenuicon.png" />
+    <None Include="Resources\windows2000netmeetingstartmenuicon.png" />
+    <None Include="Resources\windows2000hyperterminalstartmenuicon.png" />
+    <None Include="Resources\windows2000utillitymanagerstartmenuicon.png" />
+    <None Include="Resources\windows2000onscreenkeyboardstartmenuicon.png" />
+    <None Include="Resources\windows2000narratorstartmenuicon.png" />
+    <None Include="Resources\windows2000paintstartmenuicon.png" />
+    <None Include="Resources\windows2000magnifierstartmenuicon.png" />
+    <None Include="Resources\windows2000accessibilitywizardstartmenuicon.png" />
+    <None Include="Resources\windows2000windowsexplorerstartmenuicon.png" />
+    <None Include="Resources\windows2000synchronizestartmenuicon.png" />
+    <None Include="Resources\windows2000commandpromptstartmenuicon.png" />
+    <None Include="Resources\windows2000addressbookstartmenuicon.png" />
+    <None Include="Resources\windows2000searchontheinternetstartmenuicon.png" />
+    <None Include="Resources\windows2000searchpeople.png" />
+    <None Include="Resources\windows2000newworkanddialupconnectionsstartmenuicon.png" />
+    <None Include="Resources\windows2000mydocumentsstartmenuicon.png" />
+    <None Include="Resources\windows2000mediaplayerstartmenuicon.png" />
+    <None Include="Resources\windows2000outlookexpressstartmenuicon.png" />
+    <None Include="Resources\windows2000internetexplorerstartmenuicon.png" />
+    <None Include="Resources\windows2000run.png" />
+    <None Include="Resources\windows2000help.png" />
+    <None Include="Resources\windows2000splitter.png" />
+    <None Include="Resources\windows2000windowsupdate.png" />
+    <None Include="Resources\windows 2000 set program access and defaults icon.png" />
+    <None Include="Resources\dads desktop1.bmp" />
+    <None Include="Resources\mozilla firefox icon.png" />
+    <None Include="Resources\windows 2000 splitter.png" />
+    <None Include="Resources\windows2000gradient.png" />
+    <None Include="Resources\time travel.mp3" />
+    <None Include="Resources\Windows 2000 background.jpg" />
+    <None Include="Resources\windows 2000 boot sound.wav" />
+    <None Include="Resources\windows2000taskbar.png" />
+    <None Include="Resources\windows2000sidebar.png" />
+    <None Include="Resources\1999 sky.jpg" />
+    <None Include="Resources\windows 98 background.jpg" />
+    <None Include="Resources\windows98.png" />
+    <None Include="Resources\win98desktop.gif" />
+    <None Include="Resources\windows95_desktop.png" />
+    <None Include="Resources\histcaom 1.7 background.png" />
+    <None Include="Resources\msload game.png" />
+    <None Include="Resources\msexit.png" />
+    <None Include="Resources\msnewgame.png" />
+    <None Include="Resources\exit.png" />
+    <None Include="Resources\load game.png" />
+    <None Include="Resources\new game.png" />
+    <None Include="Resources\histcaom 1.6 background.png" />
+    <None Include="Resources\windowsxperror.png" />
+    <None Include="Resources\time distorter 0.3 top.png" />
+    <None Include="Resources\windowsxpinstallimagesplitter.png" />
+    <None Include="Resources\internetexplorer6gobutton.png" />
+    <None Include="Resources\internetexplorer6messengerbutton.png" />
+    <None Include="Resources\internetexplorer6editbutton.png" />
+    <None Include="Resources\internetexplorer6printbutton.png" />
+    <None Include="Resources\internetexplorer6mailbutton.png" />
+    <None Include="Resources\internetexplorer6forwardbutton.png" />
+    <None Include="Resources\internetexplorer6backbutton.png" />
+    <None Include="Resources\internetexplorer6searchbutton.png" />
+    <None Include="Resources\internetexplorer6faveroritesbutton.png" />
+    <None Include="Resources\internetexplorer6historybutton.png" />
+    <None Include="Resources\internetexplorer6refreshbutton.png" />
+    <None Include="Resources\internetexplorer6stopbutton.png" />
+    <None Include="Resources\internetexplorer6homebutton.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

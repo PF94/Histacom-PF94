@@ -1,0 +1,1459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="windows95calcualatorstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95calcualatorstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenumagnifier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenumagnifier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenudialupconnectionwizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenudialupconnectionwizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuinternetbackhammon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuinternetbackhammon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95runicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95runicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuclipboardviewer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuclipboardviewer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuinternethearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuinternethearts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenusidebackground1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenusidebackground1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpleftside" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpleftside.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000mindsweeperstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000mindsweeperstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95painteracer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95painteracer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000mydocumentsstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000mydocumentsstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="down arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\down arrow.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenudrivespace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenudrivespace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpmaximizebutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpmaximizebutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuaccessibilitywizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuaccessibilitywizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="find pic start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\find pic start.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98startmenuamericaonline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98startmenuamericaonline.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenunetworkwizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenunetworkwizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95aolandinternetfreetrial!startmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95aolandinternetfreetrial!startmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenumindsweeper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenumindsweeper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98startmenusidelogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98startmenusidelogo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmemsnstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmemsnstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emample viruses" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emample viruses.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="16 color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16 color.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internetexplorer6stopbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internetexplorer6stopbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1994-mclaren-f1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1994-mclaren-f1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hotmail signup button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hotmail signup button.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95findontherinternetstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95findontherinternetstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guess the number number 1 (32x32)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guess the number number 1 (32x32).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows 2000 set program access and defaults icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows 2000 set program access and defaults icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000networkanddialupconnectionstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000networkanddialupconnectionstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenua&amp;tservice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenua&amp;tservice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuinternethearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuinternethearts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows 95 settings computer example" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows 95 settings computer example.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000taskbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000taskbar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenusystemmonitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenusystemmonitor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shutdown pic start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shutdown pic start.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95painttext" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95painttext.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="webchat 2000 title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\webchat 2000 title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chat (32x32)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chat (32x32).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="high color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\high color.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xpbottomstartmenubar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xpbottomstartmenubar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenudisccleanup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenudisccleanup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000freecellstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000freecellstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintbrushpress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintbrushpress.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95atandtworldsignupstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95atandtworldsignupstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vista Wallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vista Wallpaper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98startmendisccleanup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98startmendisccleanup.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95addressbookdeleteblackandwhiteicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95addressbookdeleteblackandwhiteicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95onlineregistrationstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95onlineregistrationstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95internetexplorerrefresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95internetexplorerrefresh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintmagnifypress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintmagnifypress.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95addressbookactionblackandwhiteicon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95addressbookactionblackandwhiteicon1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95internetexplorerhome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95internetexplorerhome.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msload_game" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msload game.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time distorter 0.3 top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time distorter 0.3 top.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98logoffscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98logoffscreen.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsvistaorb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsvistaorb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuleftsplitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuleftsplitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenunetwatcher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenunetwatcher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenutopleft1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenutopleft1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98startmenuupdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98startmenuupdate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="winxpstartbutton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\winxpstartbutton1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000pinballstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000pinballstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintfill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintfill.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hotmailcirclearrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hotmailcirclearrow.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12padams2000logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12padams2000logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows 98 background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows 98 background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95wordpadstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95wordpadstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95hyperterminalstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95hyperterminalstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuinternetexplorer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuinternetexplorer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintrectangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintrectangle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Guess_the_Number__install_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Guess the Number (install).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxptopleftcorner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxptopleftcorner1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95outlookexpressstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95outlookexpressstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internetexplorer6printbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internetexplorer6printbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="start_run__install___white_with_programname_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\start run (install) (white with programname).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintfreeselectpush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintfreeselectpush.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msexit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msexit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="survive_the_day_option_holder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\survive the day option holder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000backupstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000backupstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintrectangleselectpress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintrectangleselectpress.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenusidebackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenusidebackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95setupcomuservicestartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95setupcomuservicestartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95scandiskstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95scandiskstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skindowsfirebar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skindowsfirebar1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xpstartmenutopbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xpstartmenutopbar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenumediaplayermain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenumediaplayermain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000addressbookstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000addressbookstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenusolitare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenusolitare.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintlinepress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintlinepress.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuinternetspades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuinternetspades.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000searchpeople" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000searchpeople.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000outlookexpressstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000outlookexpressstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new story" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new story.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuinternetspades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuinternetspades.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenusoliairmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenusoliairmain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenucontrolpanelmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenucontrolpanelmain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxprightsplitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxprightsplitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95notepadstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95notepadstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skindowsskybar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skindowsskybar1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95internetexplorerhistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95internetexplorerhistory.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="survive the day icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\survive the day icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skindowsfirebar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skindowsfirebar2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skindowsgrassbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skindowsgrassbar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000utillitymanagerstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000utillitymanagerstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000solitairestartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000solitairestartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internetexplorer6messengerbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internetexplorer6messengerbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95 and 98 taskbar item" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95 and 98 taskbar item.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuhyperterminal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuhyperterminal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98startmenusampler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98startmenusampler.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95rectanglepress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95rectanglepress.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows2.0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows2.0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error_blast__big_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error blast (big).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintfreeselectoricon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintfreeselectoricon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95internetexplorerstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95internetexplorerstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95internetexplorerfavorites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95internetexplorerfavorites.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000commandpromptstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000commandpromptstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hotmailwhysignup button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hotmailwhysignup button.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxptoprightcorner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxptoprightcorner1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenupinball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenupinball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xpbottomstartmenubar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xpbottomstartmenubar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenucompatibilitywizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenucompatibilitywizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000windowsexplorerstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000windowsexplorerstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="install icon (32x32) basic (liquify)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\install icon (32x32) basic (liquify).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000paintstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000paintstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="load game" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\load game.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98startmenuscedualed tasks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98startmenuscedualed tasks.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="256 color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\256 color.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95 and 98 taskbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95 and 98 taskbar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98startmenuwelcometowindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98startmenuwelcometowindows.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenumycomputermain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenumycomputermain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuresourcemonitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuresourcemonitor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98bootsound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98bootsound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="windows95painoval" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95painoval.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows 2000 splitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows 2000 splitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000narratorstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000narratorstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintspraycanpress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintspraycanpress.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenulogoffbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenulogoffbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000splitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000splitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95findcomputerstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95findcomputerstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenunewconnectionwizard1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenunewconnectionwizard1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95internetexplorerstop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95internetexplorerstop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuinternetcheckers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuinternetcheckers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95bottom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95bottom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95bottomrightcorner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95bottomrightcorner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95diskdefragmentorstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95diskdefragmentorstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxprestorebutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxprestorebutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenucommandprompt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenucommandprompt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenusplitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenusplitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintroundedcircle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintroundedcircle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95findpeoplestartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95findpeoplestartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxptopbarmiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxptopbarmiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000gettingstartedstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000gettingstartedstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Maximize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maximize.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guess the number Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guess the number Icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuclassichearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuclassichearts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows3.11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows3.11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenutopsideright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenutopsideright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpremotewirlesswizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpremotewirlesswizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows1.0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows1.0.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internetexplorer6faveroritesbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internetexplorer6faveroritesbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95controlpanelstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95controlpanelstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuwindowsupdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuwindowsupdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95findfilesorcomputersstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95findfilesorcomputersstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuearthlink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuearthlink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenurightside" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenurightside.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuwordpad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuwordpad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuwebtv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuwebtv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95imagingstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95imagingstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuinternetreversi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuinternetreversi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuonscreenkeyboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuonscreenkeyboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartbuttonpressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartbuttonpressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000searchontheinternetstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000searchontheinternetstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintpolygonepress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintpolygonepress.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ErrorBlast (One)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ErrorBlast (One).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenucharatormap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenucharatormap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuremote assistance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuremote assistance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpinstallimagesplitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpinstallimagesplitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95painbrush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95painbrush.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintpencil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintpencil.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internet explorer 4 logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internet explorer 4 logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="google 2000-2009 logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\google 2000-2009 logo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95addressbookprintblackandwhiteicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95addressbookprintblackandwhiteicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Run pic start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Run pic start.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help pic start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help pic start.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenunotepad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenunotepad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenufilesandtrasnferwizardmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenufilesandtrasnferwizardmain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxptaskbarright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxptaskbarright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95addressbookdeleteblackandwhiteicon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95addressbookdeleteblackandwhiteicon1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95addressbookfindpeopleblackandwhiteicon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95addressbookfindpeopleblackandwhiteicon1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows 98 error sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CHORD.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="windows95toprightcorner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95toprightcorner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backarrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backarrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="survivethedaytop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\survivethedaytop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuoutlookexpress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuoutlookexpress.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98startmenufavorites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98startmenufavorites.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuuserimage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuuserimage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuscandisk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuscandisk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintpencilpress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintpencilpress.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows 95 sidemenustart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows 95 sidemenustart.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenutopleft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenutopleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hwcvicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hwcvicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuprogramfolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuprogramfolder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuwordpadmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuwordpadmain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenusetprogramaccessanddefaultsmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenusetprogramaccessanddefaultsmain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenudialupnetworking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenudialupnetworking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95speakerright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95speakerright.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuwindowsmessenger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuwindowsmessenger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenudiscdefragmentor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenudiscdefragmentor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skindowsskybar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skindowsskybar2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95_desktop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95_desktop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000mediaplayerstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000mediaplayerstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000run" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000run.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95topleftcorner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95topleftcorner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000internetexplorerstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000internetexplorerstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenusetprogramaccessanddefults" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenusetprogramaccessanddefults.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuwindowsmediaplayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuwindowsmediaplayer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skindowsfirebar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skindowsfirebar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internetexplorer6mailbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internetexplorer6mailbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxprightside" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxprightside.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95cdplayerstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95cdplayerstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000synchronizestartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000synchronizestartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95dosstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95dosstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skindowswaterbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skindowswaterbar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Year2000bikebackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Year2000bikebackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000gradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000gradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenusychronise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenusychronise.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95volumecontrolstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95volumecontrolstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="googleprotoype" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\googleprotoype.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenusoundrecorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenusoundrecorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000windowsupdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000windowsupdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1999hotmailpassport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1999hotmailpassport.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuunitillitymangaer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuunitillitymangaer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenumymusicmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenumymusicmain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2001c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2001c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="website" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\website.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuinternetbackgammon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuinternetbackgammon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000newworkanddialupconnectionsstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000newworkanddialupconnectionsstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95printersstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95printersstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuprogidyinternet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuprogidyinternet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpbar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="programs icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\programs icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98startmenudialupnetworking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98startmenudialupnetworking.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintpolygon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintpolygon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000messageboxerror" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000messageboxerror.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="histcaom_1_7_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\histcaom 1.7 background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpbottomcorner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpbottomcorner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time_distorter__install_Black_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time distorter (install Black).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxperrorsound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxperrorsound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="windowsxpstartmenuturnoffcomputerbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuturnoffcomputerbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuisdnwizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuisdnwizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenumydocumentsmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenumydocumentsmain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internetexplorer6editbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internetexplorer6editbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="survive_the_day_install_banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\survive the day install banner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95netmeetingstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95netmeetingstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuhomenetworkingwizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuhomenetworkingwizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1999 sky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1999 sky.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenumaintanencewizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenumaintanencewizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95roundedrectanglepress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95roundedrectanglepress.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98startmenupersonwebserver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98startmenupersonwebserver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98startmenusampler1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98startmenusampler1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenupaint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenupaint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows_XP_Startup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows XP Startup.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="windowsxpstartmenutop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenutop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuschedualedtasks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuschedualedtasks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenusearchmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenusearchmain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skindowsconcrete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skindowsconcrete.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95phonedialerstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95phonedialerstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimize.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000magnifierstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000magnifierstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenumypicturesmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenumypicturesmain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuspidersoliare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuspidersoliare.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenumediaplayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenumediaplayer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuwindowsmoviemaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuwindowsmoviemaker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenunetworkconnections" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenunetworkconnections.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95internetexplorerback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95internetexplorerback.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="googlebetalogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\googlebetalogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hotmail logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hotmail logo.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenusoundcontrol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenusoundcontrol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95addressbooknewblackandwhiteicon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95addressbooknewblackandwhiteicon1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpminimizebutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpminimizebutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95internetexplorertoplogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95internetexplorertoplogo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internetexplorer6gobutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internetexplorer6gobutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000disccleanupstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000disccleanupstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95top.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenucalculator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenucalculator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new game" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new game.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000phonedialerstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000phonedialerstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windowsxpbackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windowsxpbackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hotmail2ndfromtopbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hotmail2ndfromtopbar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95bottomleftcorner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95bottomleftcorner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="start button windows 95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\start button windows 95.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95internetexplorerforward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95internetexplorerforward.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000sidebar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000sidebar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hotmail slogan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hotmail slogan.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unmaximizebutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unmaximizebutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows 2000 background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows 2000 background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintcurvylinepress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintcurvylinepress.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000windowsmediaplayerstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000windowsmediaplayerstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98startmenudriveconvert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98startmenudriveconvert.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mini applications window" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mini applications window.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95zoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95zoom.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skindowslightingbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skindowslightingbar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuwindowsmoviemakermain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuwindowsmoviemakermain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenumsn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenumsn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmeonscreenkeyboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmeonscreenkeyboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuinternetexplorermain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuinternetexplorermain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenufreecell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenufreecell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpclosebutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpclosebutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000accessibilitywizardstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000accessibilitywizardstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internet explorer 4 mail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internet explorer 4 mail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuside" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuside.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vistatop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vistatop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuoutlookexpressmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuoutlookexpressmain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internetexplorer6historybutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internetexplorer6historybutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuinternetreversi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuinternetreversi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000cdplayerstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000cdplayerstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000netmeetingstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000netmeetingstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internetexplorer6backbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internetexplorer6backbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95addressbooknewblackandwhiteicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95addressbooknewblackandwhiteicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpbottomleftcorner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpbottomleftcorner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000schedualedtasksstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000schedualedtasksstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vistataskbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vistataskbar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mozilla firefox icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mozilla firefox icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="win98desktop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\win98desktop.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="survive the day choice mouseover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\survive the day choice mouseover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95spraycan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95spraycan.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95adressbookstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95adressbookstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintcolorselectpress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintcolorselectpress.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1999hotmaillogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1999hotmaillogo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95rightside" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95rightside.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows me background color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows me background color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuwindowscatalog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuwindowscatalog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Time_Distortion_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Time Distortion Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenufilesandsettingstransferwizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenufilesandsettingstransferwizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="programs icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\programs icon1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintline.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows 2000 history image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows 2000 history image.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenurunmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenurunmain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95addressbookpropertiesblackandwhiteicon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95addressbookpropertiesblackandwhiteicon1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenubottom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenubottom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98startmenumaintanecewizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98startmenumaintanecewizard.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hotmailtop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hotmailtop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000systeminformationstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000systeminformationstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Histacom 1.8 Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Histacom 1.8 Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95addressbookprintblackandwhiteicon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95addressbookprintblackandwhiteicon1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95leftside" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95leftside.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2001gamesandsoftware" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2001gamesandsoftware.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenutourwindowsxp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenutourwindowsxp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rouge_scanner_install_banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rouge scanner install banner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000hyperterminalstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000hyperterminalstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95speakerleft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95speakerleft.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="start run (32x32)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\start run (32x32).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenusystemrestore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenusystemrestore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuspidersolitare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuspidersolitare.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internet explorer 4 channels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internet explorer 4 channels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuside" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuside.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000onscreenkeyboardstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000onscreenkeyboardstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95internetconnectionwizardstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95internetconnectionwizardstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95error.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skindows 95 picture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skindows 95 picture.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95taskbarstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95taskbarstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxperror" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxperror.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintcurvyline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintcurvyline.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenunewconnectionwizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenunewconnectionwizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98startmenucompuserve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98startmenucompuserve.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95setupwowstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95setupwowstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98startmenuprodigyinternet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98startmenuprodigyinternet.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuhearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuhearts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suspend pic start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\suspend pic start.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Time Distorter icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Time Distorter icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chat (big)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chat (big).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000discdefragmenterstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000discdefragmenterstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95windowsexplorerstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95windowsexplorerstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msnewgame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msnewgame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="survive the day option" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\survive the day option.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuturnoffcomputerbutton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuturnoffcomputerbutton1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95addressbookactionblackandwhiteicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95addressbookactionblackandwhiteicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internetexplorer6forwardbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internetexplorer6forwardbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintfillpress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintfillpress.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenusecuritycentre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenusecuritycentre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ps2_wallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ps2_wallpaper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95mediaplayerstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95mediaplayerstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="winxpstartbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\winxpstartbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="survive the day text background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\survive the day text background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="documents pic start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\documents pic start.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95painttextpress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95painttextpress.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenusystemrestore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenusystemrestore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="energysave windows 95" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\energysave windows 95.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintcolorpick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintcolorpick.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenutourwindowsxpmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenutourwindowsxpmain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenusysteminformation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenusysteminformation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="true color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\true color.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95soundrecorderstartmenuicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95soundrecorderstartmenuicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skindowsskybar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skindowsskybar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suspend pic start1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\suspend pic start1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuiconwindowsmediaplayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuiconwindowsmediaplayer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95addressbookpropertiesblackandwhiteicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95addressbookpropertiesblackandwhiteicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skindows 95 (install)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skindows 95 (install).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintrubberpress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintrubberpress.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuremotedesktopconnection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuremotedesktopconnection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internet explorer 4 fullscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internet explorer 4 fullscreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95bootsound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Microsoft Sound.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="windowsmestartmenuminesweeper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuminesweeper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98startmenusysteminformation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98startmenusysteminformation.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuamericaonline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuamericaonline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sydney new years" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sydney new years.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spysheifficon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spysheifficon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuhelpandsupportmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuhelpandsupportmain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenuinternetspades1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenuinternetspades1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintovelpress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintovelpress.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internetexplorer6searchbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internetexplorer6searchbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuwindowsexplorer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuwindowsexplorer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpbottom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpbottom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95addressbookfindpeopleblackandwhiteicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95addressbookfindpeopleblackandwhiteicon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internet explorer 4 print" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internet explorer 4 print.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95internetexplorergobutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95internetexplorergobutton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internetexplorer6refreshbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internetexplorer6refreshbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuaddressbook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuaddressbook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="internetexplorer6homebutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\internetexplorer6homebutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuallprogramsmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuallprogramsmain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows2000charactormapstartmenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows2000charactormapstartmenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows_2000_boot_sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows 2000 boot sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="windows 95 background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows 95 background.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsmestartmenumilleniumeditionpreveiw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsmestartmenumilleniumeditionpreveiw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows me background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows me background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenuinternetcheckers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenuinternetcheckers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings pic start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings pic start.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows95paintrectangleselector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows95paintrectangleselector.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenunarrator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenunarrator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows98" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows98.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windowsxpstartmenupaintmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windowsxpstartmenupaintmain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skindowsbinary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skindowsbinary.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skindowdirt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skindowdirt.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hotmailside" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hotmailside.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="history of computer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\history of computer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="welcome_to_soduku" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\welcome to soduku.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_01_Prisoner_of_Love" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01 Prisoner of Love.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

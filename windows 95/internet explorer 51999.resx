@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="MenuStrip3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>207, 17</value>
+  </metadata>
+  <data name="TextBox24.Text" xml:space="preserve">
+    <value>Due to windows 95 being so successful on 25 June 1998 microsoft released windows 98 which was very similar in fuction and control to windows 95.
+
+It included the almost the exact same windows shell but had a few enhancements to future improve the experience of using windows.
+
+Although windows 98 looked and felt the same as windows 95 it added the following important additional features that seperate if from windows 95:
+1. Display drivers are fully DirectX compatible.
+2. Faster floppy disk drivers
+3. 300 new modem drivers, 175 new monitor drivers, 600 new printer drivers
+4. Usb drive support
+5. Built-in drivers for still image and video capture devices
+6. Improved registry speed 
+7. Smart Card support
+8. DVD storage and movie playback 
+9. Multiple display support, which allows use of more than one monitor on the system at the same time
+10. System Troubleshooter tool that aids in diagnosing problems with your system
+</value>
+  </data>
+  <data name="TextBox23.Text" xml:space="preserve">
+    <value>Released on August 24 1995, Windows 95 was a revolution.
+Windows 95 introduced a major user interface update which is planned to be in continued use for many years to come.
+
+Windows 95 was the first version of windows to include the taskbar which had the start button, open programs and the time displayed on it.
+The open windows being displayed on the taskbar replaced the original placing open programs on the desktop as icons.
+
+Program mangager was replaced with the famous start menu which can be accessed by clicking the start button. The start menu orders all installed programs in an easy to use listveiw menu. Instead of clicking each folder in windows 3.11 you can now just hover over items in the start menu and instantly you can see the contents of these folders.
+
+It also introduced  "minimize", "maximize" and "close" to the windows shell
+
+Although windows 95 did not originaly come with internet explorer the plus version of windows 95 included internet explorer 1.0. Internet explorer 4.0 is the latest version of internet explorer that works on windows 95</value>
+  </data>
+  <data name="TextBox22.Text" xml:space="preserve">
+    <value>On 31 December 1993 Microsoft released its first sucessfull operating system named "Windows 3.11"
+This operating system introduced the idea of icons and the "program Manager"
+
+The program manager is a window which contains various icons which when clicked open another windows with more icons and programs.
+
+This operating system also has a "desktop" which contains "open" programs which have been minimized. The minimize button in this operating system is at the top right of each window and is represented with a down arrow.
+</value>
+  </data>
+  <data name="TextBox21.Text" xml:space="preserve">
+    <value>On 9th December 1987 Windows 2.0 was released
+
+Windows 2.0 allowed program windows to overlap each other.  Windows 2.0 also introduced the "Minimize" and "Maximize" window options.
+
+Below is a list of some of the software which came with the operating system   
+* CALC.EXE (Calculator Program)
+* CALENDAR.EXE (Virtual calender with date organising) 
+* CLOCK.EXE (a working analog clock showing the time set in the bios)
+* CONTROL.EXE (Changes comptuer settings based on user choice)
+* MSDOS.EXE (ability to access MS-DOS (a text based operating system)
+* NOTEPAD.EXE (a very simple text editor which uses and makes .txt files)
+* PAINT.EXE (a 2d bitmap drawing based program)
+* REVERSI.EXE(A computer version of the game reversi)
+* WRITE.EXE (a word proccessor with more features then notepad)
+
+On 17 March 1988 Apple filed suit against Microsoft because windows 2.0 had the look and feel of apple lisa and mac operating systems. This disagreement was resloved with microsoft making internet explorer and microsoft office for the mac</value>
+  </data>
+  <data name="TextBox9.Text" xml:space="preserve">
+    <value>On November 20th 1985 Microsoft released its first graphical user interface based operating system.
+They called it windows 1 meaning their first version of windows. 
+Windows 1.0 shows the user on the screen a list of files and programs. The user can navigate to these program by using the keyboards up and down arrows to choose an option. Clicking enter then allows the user to open the program or file.
+There was no mouse imput avalible when it was first released which still made it hard for users to navigate the computer but this graphical interface was still easier to use then MS-DOS (a previous text-based operating system by microsoft)
+Windows 1.0 did not have much success but microsoft still wanted to move their work into graphical interfaces rather then text. 
+Although Multiple programs could be run at once the open programs could not overlap eachother. The open windows were tiled which means run side by side or top to bottom with split screen effects.
+MS-DOS was still in development at the time of windows 1.0</value>
+  </data>
+  <data name="TextBox12.Text" xml:space="preserve">
+    <value>1998: Added Time Distortion software to 12padams website.
+Software was hidden and only accessable after downloading hwcv.exe and applying it onto the 12padams website
+Time Distortion software in extremely early stages and dangerous
+Any Download of the time distortion software results in an instant alert to 12padams</value>
+  </data>
+  <data name="TextBox17.Text" xml:space="preserve">
+    <value>Hey 12padams... I was scanning your website and i found well i don't know.
+
+Do you have some type of hidden software on it because i can't find to find the matching software the has the same code as i saw...
+
+Whats the hidden software?</value>
+  </data>
+  <data name="TextBox10.Text" xml:space="preserve">
+    <value>12padams.com Data Log
+
+1996: www.12padams.com created
+1997:Lots Of software added to 12padams.com
+1998: ###############
+1999: Updated Website Interface and updated the software contained on it
+
+WARNING 1998 log file is encrypted and unreadable.
+
+Rest of log stored on hotmail account...
+
+Username: 12padams@hotmail.com
+Password: *************                                                                   </value>
+  </data>
+  <data name="TextBox8.Text" xml:space="preserve">
+    <value>Skindows 98 is the best customization software in the world avalible for windows 98.
+
+It allows the editing of the active captionbar and the taskbar to look however you like.
+
+Show the world your style. Buy Skindows 98 to use your computer to its full potential
+
+Warning: Skindows 98 is only compatible with windows 98 so make sure that you have windows 98 installed on your system before you buy this product.
+
+Please enjoy Using this amzing software and showing all your friends how cool your computer looks </value>
+  </data>
+  <data name="TextBox1.Text" xml:space="preserve">
+    <value>Thank You For Using Internet Explorer 5. With Internet Explorer 5 you can veiw the internet just by typing a few phrases. To Browse Websites just type the address into the browser then press the go button and you will be taken strait to the website.     If you wish to return to this page at anytime you can either type "www.microsoft.com/internetexplorer5/welcome" into the browser or you can press the home button on the browser</value>
+  </data>
+  <data name="TextBox5.Text" xml:space="preserve">
+    <value>Many of use are looking forward to the year 2000 but there are also others dreading and fearing this event. This is because computers today currently have a date system which displays "19" then it displays the the last 2 numbers of the year.
+
+Now the problem is that the first 2 digits "19" will not change on the new year. This means many computers may suddenly display 1900 instead of 2000. 
+
+The reason dates are so important is because computers and programs are always using dates which controls the way that they run. An Example of this is at a bank. The bank computer may be printing you a check in the year 2000 and it will not look at the "20" and instead will just put "19" so the bank check will be completly messed up.
+
+All deposit and withdraw logs Will be messed up and this will cause incorrect bank readings since the bank computer will think its 1900 and will not know that you even existed... This will cause the bank to lose all the money and people it had stored in the system.
+
+To Prevent this from all happening we are changing 2 digit dates to 4 digit dates which will stop all possible errors. The problem with doing this is that some people may be using older systems such as Windows 3.11 (an operating system made by microsoft used around 1993). 
+
+Hopefully all computers can be successfully converted to 4 digit dates to that this global crysis never happens.
+
+Article By 12padams 1999</value>
+  </data>
+  <metadata name="look.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
+  <metadata name="pullbs.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>312, 17</value>
+  </metadata>
+  <metadata name="pullbottom.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>396, 17</value>
+  </metadata>
+  <metadata name="pullside.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>509, 17</value>
+  </metadata>
+</root>
