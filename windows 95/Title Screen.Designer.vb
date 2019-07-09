@@ -37,10 +37,9 @@ Partial Class Title_Screen
         '
         Me.buttonnewgame.BackColor = System.Drawing.Color.Transparent
         Me.buttonnewgame.Image = Global.Histacom.My.Resources.Resources.new_game
-        Me.buttonnewgame.Location = New System.Drawing.Point(44, 146)
-        Me.buttonnewgame.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.buttonnewgame.Location = New System.Drawing.Point(33, 119)
         Me.buttonnewgame.Name = "buttonnewgame"
-        Me.buttonnewgame.Size = New System.Drawing.Size(208, 139)
+        Me.buttonnewgame.Size = New System.Drawing.Size(156, 113)
         Me.buttonnewgame.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.buttonnewgame.TabIndex = 0
         Me.buttonnewgame.TabStop = False
@@ -50,10 +49,9 @@ Partial Class Title_Screen
         Me.buttonloadgame.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.buttonloadgame.BackColor = System.Drawing.Color.Transparent
         Me.buttonloadgame.Image = Global.Histacom.My.Resources.Resources.load_game
-        Me.buttonloadgame.Location = New System.Drawing.Point(413, 146)
-        Me.buttonloadgame.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.buttonloadgame.Location = New System.Drawing.Point(310, 119)
         Me.buttonloadgame.Name = "buttonloadgame"
-        Me.buttonloadgame.Size = New System.Drawing.Size(208, 139)
+        Me.buttonloadgame.Size = New System.Drawing.Size(156, 113)
         Me.buttonloadgame.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.buttonloadgame.TabIndex = 1
         Me.buttonloadgame.TabStop = False
@@ -63,10 +61,9 @@ Partial Class Title_Screen
         Me.buttonexit.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.buttonexit.BackColor = System.Drawing.Color.Transparent
         Me.buttonexit.Image = Global.Histacom.My.Resources.Resources._exit
-        Me.buttonexit.Location = New System.Drawing.Point(803, 146)
-        Me.buttonexit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.buttonexit.Location = New System.Drawing.Point(602, 119)
         Me.buttonexit.Name = "buttonexit"
-        Me.buttonexit.Size = New System.Drawing.Size(208, 139)
+        Me.buttonexit.Size = New System.Drawing.Size(156, 113)
         Me.buttonexit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.buttonexit.TabIndex = 2
         Me.buttonexit.TabStop = False
@@ -76,29 +73,29 @@ Partial Class Title_Screen
         Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Location = New System.Drawing.Point(16, 668)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(12, 543)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(211, 17)
+        Me.Label1.Size = New System.Drawing.Size(161, 13)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Time Hack 1.9 by benpowerman"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(413, 525)
+        Me.Button1.Location = New System.Drawing.Point(717, 11)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(56, 19)
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "about"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Title_Screen
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Histacom.My.Resources.Resources.Histacom_1_8_Background
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1045, 692)
+        Me.ClientSize = New System.Drawing.Size(784, 562)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.buttonexit)
@@ -106,7 +103,6 @@ Partial Class Title_Screen
         Me.Controls.Add(Me.buttonnewgame)
         Me.DoubleBuffered = True
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Title_Screen"
         Me.Text = "Histacom 1.8"
         Me.TransparencyKey = System.Drawing.Color.Magenta

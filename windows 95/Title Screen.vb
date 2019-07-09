@@ -40,6 +40,6 @@
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        MessageBox.Show("made by 12padams and benpowerman all copyright go to microsoft and google thank you and have a nice day")
+        MessageBox.Show("Clone of Time Hack 1.9 by benpowerman, that was originally based on Histacom, from 12padams, known as OSFirstTimer")
     End Sub
 End Class
