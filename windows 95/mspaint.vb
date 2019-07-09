@@ -1,4 +1,4 @@
-﻿Public Class paint
+﻿Public Class mspaint
     Dim selectedtool As String
 
     Private Sub toolfreeformslect_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles toolfreeformslect.Click

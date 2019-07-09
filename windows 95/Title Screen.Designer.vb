@@ -82,7 +82,7 @@ Partial Class Title_Screen
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(717, 11)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(56, 19)
         Me.Button1.TabIndex = 4
@@ -104,7 +104,7 @@ Partial Class Title_Screen
         Me.DoubleBuffered = True
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Title_Screen"
-        Me.Text = "Histacom 1.8"
+        Me.Text = "Histacom PF94 alpha"
         Me.TransparencyKey = System.Drawing.Color.Magenta
         CType(Me.buttonnewgame, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.buttonloadgame, System.ComponentModel.ISupportInitialize).EndInit()

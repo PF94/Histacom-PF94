@@ -256,22 +256,22 @@
     <Compile Include="installerxp.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="internet explorer 4.Designer.vb">
-      <DependentUpon>internet explorer 4.vb</DependentUpon>
+    <Compile Include="IE4.Designer.vb">
+      <DependentUpon>IE4.vb</DependentUpon>
     </Compile>
-    <Compile Include="internet explorer 4.vb">
+    <Compile Include="IE4.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="internet explorer 51999.Designer.vb">
-      <DependentUpon>internet explorer 51999.vb</DependentUpon>
+    <Compile Include="IE5 99.Designer.vb">
+      <DependentUpon>IE5 99.vb</DependentUpon>
     </Compile>
-    <Compile Include="internet explorer 51999.vb">
+    <Compile Include="IE5 99.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Internet Explorer 52000.Designer.vb">
-      <DependentUpon>Internet Explorer 52000.vb</DependentUpon>
+    <Compile Include="IE5 Y2K.Designer.vb">
+      <DependentUpon>IE5 Y2K.vb</DependentUpon>
     </Compile>
-    <Compile Include="Internet Explorer 52000.vb">
+    <Compile Include="IE5 Y2K.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="internet explorer 52001.Designer.vb">
@@ -286,10 +286,10 @@
     <Compile Include="Internetexplorer62002damaged.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="loadsettings.Designer.vb">
-      <DependentUpon>loadsettings.vb</DependentUpon>
+    <Compile Include="loadapplication.Designer.vb">
+      <DependentUpon>loadapplication.vb</DependentUpon>
     </Compile>
-    <Compile Include="loadsettings.vb">
+    <Compile Include="loadapplication.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -325,10 +325,10 @@
     <Compile Include="notepadxp.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="paint.Designer.vb">
-      <DependentUpon>paint.vb</DependentUpon>
+    <Compile Include="mspaint.Designer.vb">
+      <DependentUpon>mspaint.vb</DependentUpon>
     </Compile>
-    <Compile Include="paint.vb">
+    <Compile Include="mspaint.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="phone dialer.Designer.vb">
@@ -624,14 +624,14 @@
     <EmbeddedResource Include="installerxp.resx">
       <DependentUpon>installerxp.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="internet explorer 4.resx">
-      <DependentUpon>internet explorer 4.vb</DependentUpon>
+    <EmbeddedResource Include="IE4.resx">
+      <DependentUpon>IE4.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="internet explorer 51999.resx">
-      <DependentUpon>internet explorer 51999.vb</DependentUpon>
+    <EmbeddedResource Include="IE5 99.resx">
+      <DependentUpon>IE5 99.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Internet Explorer 52000.resx">
-      <DependentUpon>Internet Explorer 52000.vb</DependentUpon>
+    <EmbeddedResource Include="IE5 Y2K.resx">
+      <DependentUpon>IE5 Y2K.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="internet explorer 52001.resx">
       <DependentUpon>internet explorer 52001.vb</DependentUpon>
@@ -639,8 +639,8 @@
     <EmbeddedResource Include="Internetexplorer62002damaged.resx">
       <DependentUpon>Internetexplorer62002damaged.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="loadsettings.resx">
-      <DependentUpon>loadsettings.vb</DependentUpon>
+    <EmbeddedResource Include="loadapplication.resx">
+      <DependentUpon>loadapplication.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -657,8 +657,8 @@
     <EmbeddedResource Include="notepadxp.resx">
       <DependentUpon>notepadxp.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="paint.resx">
-      <DependentUpon>paint.vb</DependentUpon>
+    <EmbeddedResource Include="mspaint.resx">
+      <DependentUpon>mspaint.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="phone dialer.resx">
       <DependentUpon>phone dialer.vb</DependentUpon>

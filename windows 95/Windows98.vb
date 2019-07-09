@@ -195,7 +195,7 @@
     End Sub
 
     Private Sub PaintToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PaintToolStripMenuItem.Click
-        Dim openpaint As New paint
+        Dim openpaint As New mspaint
         openpaint.Show()
         startmenu.Hide()
     End Sub
